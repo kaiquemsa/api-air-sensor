@@ -1,6 +1,6 @@
 import "dotenv/config";
-import * as express from "express";
-const cors = require('cors');
+import express from "express";
+import cors from "cors";
 import { AppDataSource } from "./database/data-source";
 import routes from "./routes";
 
